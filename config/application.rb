@@ -30,7 +30,7 @@ module RailsTemplate
 
     config.generators do |g|
       g.test_framework :rspec,
-        fixtures: false,
+        request_specs: false,
         view_spec: false,
         helper_specs: false,
         routing_specs: false
